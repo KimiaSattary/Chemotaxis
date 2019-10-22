@@ -22,7 +22,7 @@
      for(int i = 0; i<100; i++)
      {
        fire[i].walk();
-       fire[i].show();
+       fire[i].move();
      }
   
    
@@ -57,7 +57,7 @@
      fill(colorRandom);
      ellipse(myX, myY, 2, 2);
    }
-   void walk()
+   void move()
    {
      myX = myX + (float)Math.random()*3-1.5;
      myY = myY + (float)Math.random()*-10;
@@ -73,7 +73,7 @@
     for(int i = 0; i<100; i++)
      {
        fire[i].walk();
-       fire[i].show();
+       fire[i].move();
    
      
    }
