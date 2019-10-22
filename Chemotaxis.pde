@@ -21,8 +21,8 @@
 
      for(int i = 0; i<100; i++)
      {
-       fire[i].walk();
        fire[i].move();
+       fire[i].show();
      }
   
    
@@ -72,8 +72,8 @@
     }
     for(int i = 0; i<100; i++)
      {
-       fire[i].walk();
        fire[i].move();
+       fire[i].show();
    
      
    }
